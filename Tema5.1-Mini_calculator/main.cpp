@@ -2,24 +2,21 @@
 #include "Operatii.h"
 using namespace std;
 
-//o funcție, definită în main.cpp, care să afișeze meniul opțiunilor
-// pentru utilizator, funcție pe care o veți apela la începutul funcției main.
-
-int FctMeniu(int meniu)
+void FctMeniu()
 {
 cout<<"1 Adunare"<<endl;
 cout<<"2 Scadere"<<endl;
 cout<<"3 Inmultire"<<endl;
 cout<<"4 Impartire"<<endl;
 cout<<"5 Modulo"<<endl;
-return 0;
 }
+
 
 int main()
 {
     cout<<"Introdu aplicatia pe care vrei sa o aplici (1,2,3,4 sau 5):"<<endl;
     int varmeniu;
-    FctMeniu(varmeniu);
+    FctMeniu();
     cin>>varmeniu;
     int nr1, nr2;
     cout<<"Introdu numarul 1: ";
