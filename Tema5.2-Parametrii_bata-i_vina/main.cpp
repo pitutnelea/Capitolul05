@@ -11,7 +11,7 @@ parTyRef *=3;
 
 int main()
 {
-int druckenRat = 3;
+int druckenRat = 36;
 Ameteala(druckenRat, druckenRat, &druckenRat);
 cout<<druckenRat<<endl;
 
