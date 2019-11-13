@@ -19,7 +19,8 @@ int main()
     //Dacă litera e mică înlocuiți-o cu echivalentul ei mare.
     //Dacă litera e mare înlocuiți-o cu echivalentul ei mic.
 
-    for (int i=0;i<20;i++)
+    int i= 0;
+    while (Sir[i]!=0)
     {
         if(isupper(Sir[i]))
         {
@@ -29,6 +30,7 @@ int main()
         {
             Sir[i] = toupper(Sir[i]);
         }
+    i++;
     }
 
     //Afișați din nou șirul.
