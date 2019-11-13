@@ -28,8 +28,16 @@ int main()
         case 1: cout<<nr1<<" + "<<nr2<<" = "<<FctAdunare(nr1,nr2);break;
         case 2: cout<<nr1<<" - "<<nr2<<" = "<<FctScadere(nr1, nr2);break;
         case 3: cout<<nr1<<" * "<<nr2<<" = "<<FctInmultire(nr1, nr2);break;
-        case 4: cout<<nr1<<" / "<<nr2<<" = "<<FctImpartire(nr1, nr2);break;
-        case 5: cout<<nr1<<" % "<<nr2<<" = "<<FctModulo(nr1, nr2); break;
+        case 4: while (nr2==0)
+                {cout<<"Nu e posibil sa impartiti la 0, reintroduceti numarul 2: ";
+                cin>> nr2;
+                }
+                cout<<nr1<<" / "<<nr2<<" = "<<FctImpartire(nr1, nr2); break;
+        case 5: while (nr2==0)
+                {cout<<"Nu e posibil sa impartiti la 0, reintroduceti numarul 2: ";
+                cin>> nr2;
+                }
+                cout<<nr1<<" % "<<nr2<<" = "<<FctModulo(nr1, nr2); break;
         default: cout<<"Atentie, optiunea incorecta!"<<endl;
     }
     return 0;

@@ -1,9 +1,10 @@
 # depslib dependency file v1.0
-1573424303 source:d:\cplusplus\proiecte\capitolul05\tema5.1-mini_calculator\main.cpp
+1573671479 source:d:\cplusplus\proiecte\capitolul05\tema5.1-mini_calculator\main.cpp
 	<iostream>
 	"Operatii.h"
 
-1573422923 source:d:\cplusplus\proiecte\capitolul05\tema5.1-mini_calculator\operatii.cpp
+1573671049 source:d:\cplusplus\proiecte\capitolul05\tema5.1-mini_calculator\operatii.cpp
+	<iostream>
 
 1573422263 source:d:\cplusplus\proiecte\capitolul05\tema5.1-mini_calculator\cerinta.cpp
 
