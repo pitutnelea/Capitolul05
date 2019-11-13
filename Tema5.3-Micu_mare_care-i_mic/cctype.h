@@ -1,6 +1,0 @@
-#ifndef CCTYPE_H_INCLUDED
-#define CCTYPE_H_INCLUDED
-
-
-
-#endif // CCTYPE_H_INCLUDED
